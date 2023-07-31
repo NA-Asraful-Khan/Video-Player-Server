@@ -6,8 +6,6 @@ const {readdirSync} = require('fs')
 const path = require('path');
 require('dotenv').config();
 
-const servers = path.dirname(require.main.filename)
-
 const PORT = process.env.PORT||8000
 //middlewares
 app.use(cors());
